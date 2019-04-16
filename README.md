@@ -53,5 +53,8 @@ The topology of the precinct shapefile was repaired using the st_make_valid() fu
 * `SENDIST`: State Senate district ID
 * `HDIST`: State House district ID
 
+## Projection
+This shapefile uses a NAD83/UTM zone 12 North projection (EPSG:26912).
+
 ## Rating
 We give this shapefile an B rating. Precinct level election data did not neatly correspond to the precinct shapefile and some merging of precincts had to be performed in order to join the two files.
